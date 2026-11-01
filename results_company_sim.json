@@ -1,0 +1,42 @@
+{
+ "leave_company_out": {
+  "MAE": 0.640495703402393,
+  "RMSE": 0.9046221951189558,
+  "bin_acc": 0.47930213389504533,
+  "within1": 0.8625789907500687,
+  "spearman": 0.745077142194976,
+  "bias_log10": -0.07871953275560324
+ },
+ "leave_company_out_large_companies": {
+  "MAE": 0.9823441521202575,
+  "RMSE": 1.1909411462151482,
+  "bin_acc": 0.1797752808988764,
+  "within1": 0.5509492444788842,
+  "spearman": 0.06476230758716725,
+  "bias_log10": -0.5931914442300921
+ },
+ "company_pseudoCBI_sim_mean": {
+  "n_pseudo_rows": 1540.2,
+  "frac_chem_adjusted": 0.9575279043420828,
+  "row_MAE_ml": 0.5380654847859623,
+  "row_MAE_reconciled": 0.32143151659163993,
+  "row_bias_ml": -0.23176824747001318,
+  "row_bias_reconciled": 0.13193005172125075,
+  "row_within1_ml": 0.8531072429096097,
+  "row_within1_reconciled": 0.9603974585651394,
+  "chem_total_MAE_ml": 0.3243932036673652,
+  "chem_total_MAE_reconciled": 0.014885525463577862
+ },
+ "company_pseudoCBI_sim_sd": {
+  "n_pseudo_rows": 64.5189894527185,
+  "frac_chem_adjusted": 0.004975702232705316,
+  "row_MAE_ml": 0.029364009838729818,
+  "row_MAE_reconciled": 0.00906323213122611,
+  "row_bias_ml": 0.05138729121038156,
+  "row_bias_reconciled": 0.02197732705035091,
+  "row_within1_ml": 0.040096290990742814,
+  "row_within1_reconciled": 0.008235357826875058,
+  "chem_total_MAE_ml": 0.026680809814505897,
+  "chem_total_MAE_reconciled": 0.005950492820893474
+ }
+}

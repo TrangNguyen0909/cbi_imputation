@@ -1,0 +1,19 @@
+{
+ "n_cbi_rows": 21624,
+ "conformal_margin_log10": 0.10891620429911933,
+ "mean_interval_width_log10": 2.667266452175445,
+ "frac_rows_reconciled": 0.6280521642619312,
+ "median_reconcile_factor_up": 2.9883383911618107,
+ "frac_reconciled_upward": 0.6059933407325194,
+ "frac_reconciled_downward": 0.022058823529411766,
+ "mean_shift_log10": 0.31969473583032365,
+ "volume_weighted_hidden_share_all": 0.40491648585096873,
+ "chemicals_with_any_CBI_row": 6560,
+ "chemicals_majority_hidden": 5087,
+ "PFAS": {
+  "n_chem": 213,
+  "hidden_share_volume": 0.9213693848220371,
+  "imputed_Mlb": 753.4631191543639,
+  "public_Mlb": 64.301321
+ }
+}

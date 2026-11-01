@@ -1,0 +1,119 @@
+{
+ "adversarial_auc": 0.9978710102443727,
+ "adversarial_top_features": {
+  "naics6": 624581.0,
+  "activity": 451222.0,
+  "n_rows_parent": 440919.0,
+  "exported_cbi": 297563.0,
+  "n_chem_site": 203319.0,
+  "state": 152041.0,
+  "foreign_cc": 139372.0,
+  "onsite_cbi": 118396.0
+ },
+ "unseen_chemical": {
+  "global_median": {
+   "MAE": 1.2723703268256337,
+   "RMSE": 1.6876039533623364,
+   "bin_acc": 0.2730103489330525,
+   "within1": 0.6374668009891016,
+   "spearman": -0.05088097776972936
+  },
+  "equal_split": {
+   "MAE": NaN,
+   "RMSE": NaN,
+   "bin_acc": 0.4243520468907409,
+   "within1": 0.7457184723875813,
+   "spearman": NaN
+  },
+  "lightgbm": {
+   "MAE": 0.4756985394368869,
+   "RMSE": 0.7050480999882807,
+   "bin_acc": 0.592957230515615,
+   "within1": 0.9452330799523766,
+   "spearman": 0.8560267366876214
+  }
+ },
+ "unseen_chemical_CBIlike_top20pct": {
+  "global_median": {
+   "MAE": 1.267692862820319,
+   "RMSE": 1.6431433804985747,
+   "bin_acc": 0.26465201465201466,
+   "within1": 0.6229395604395604,
+   "spearman": -0.017759463964022497
+  },
+  "equal_split": {
+   "MAE": NaN,
+   "RMSE": NaN,
+   "bin_acc": 0.4056776556776557,
+   "within1": 0.7291666666666666,
+   "spearman": NaN
+  },
+  "lightgbm": {
+   "MAE": 0.5791833234349604,
+   "RMSE": 0.8161948367562152,
+   "bin_acc": 0.5279304029304029,
+   "within1": 0.9235347985347986,
+   "spearman": 0.8465586959201473
+  }
+ },
+ "random_rows": {
+  "global_median": {
+   "MAE": 1.271499892496772,
+   "RMSE": 1.6867563421512295,
+   "bin_acc": 0.2730103489330525,
+   "within1": 0.6374668009891016,
+   "spearman": -0.006876767274726212
+  },
+  "equal_split": {
+   "MAE": NaN,
+   "RMSE": NaN,
+   "bin_acc": 0.4243520468907409,
+   "within1": 0.7457184723875813,
+   "spearman": NaN
+  },
+  "lightgbm": {
+   "MAE": 0.45104592977174296,
+   "RMSE": 0.6811016204592931,
+   "bin_acc": 0.6104954666178222,
+   "within1": 0.947843209085081,
+   "spearman": 0.86028833246538
+  }
+ },
+ "random_rows_CBIlike_top20pct": {
+  "global_median": {
+   "MAE": 1.2675014578636845,
+   "RMSE": 1.643313841350751,
+   "bin_acc": 0.26465201465201466,
+   "within1": 0.6229395604395604,
+   "spearman": -0.015714304044640588
+  },
+  "equal_split": {
+   "MAE": NaN,
+   "RMSE": NaN,
+   "bin_acc": 0.4056776556776557,
+   "within1": 0.7291666666666666,
+   "spearman": NaN
+  },
+  "lightgbm": {
+   "MAE": 0.548724567120342,
+   "RMSE": 0.7926270391069915,
+   "bin_acc": 0.5457875457875457,
+   "within1": 0.9290293040293041,
+   "spearman": 0.8542985500768198
+  }
+ },
+ "final_importance_gain": {
+  "naics6": 259542.0,
+  "nat_log_per_site": 148665.0,
+  "log_onsite": 98248.0,
+  "nat_log_lo": 34452.0,
+  "activity": 25859.0,
+  "log_exported": 21930.0,
+  "n_chem_site": 16697.0,
+  "nat_log_hi": 15950.0,
+  "frac_cbi_chem_others": 12207.0,
+  "state": 11731.0,
+  "n_sites_chem": 11576.0,
+  "ind_sect": 10697.0
+ }
+}
